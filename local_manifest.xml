@@ -3,20 +3,17 @@
         <remote name="rem"
                 fetch="https://github.com" />
 
-        <remote name="lab"
-                fetch="https://gitlab.com" />
-
         <!-- LGE Hardware Specific Support -->
-        <project path="hardware/lge" name="LineageOS/android_hardware_lge" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="hardware/lge" name="Lge-qcom-dev/android_hardware_lge" remote="rem" revision="lineage-22.2" clone-depth="1" />
 
         <!-- Device Trees -->
-        <project path="device/lge/mh2lm" name="LineageOS/android_device_lge_mh2lm" remote="rem" revision="lineage-22.2" clone-depth="1" />
-        <project path="device/lge/sm8150-common" name="LineageOS/android_device_lge_sm8150-common" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="device/lge/mh2lm" name="Xtrakari/android_device_lge_mh2lm" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="device/lge/sm8150-common" name="Lge-qcom-dev/android_device_lge_sm8150-common" remote="rem" revision="lineage-22.2" clone-depth="1" />
 
         <!-- Vendor Blobs (Using standard LineageOS proprietary mirrors) -->
-        <project path="vendor/lge/mh2lm" name="TheMuppets/proprietary_vendor_lge_mh2lm" remote="rem" revision="lineage-22.2" clone-depth="1" />
-        <project path="vendor/lge/sm8150-common" name="TheMuppets/proprietary_vendor_lge_sm8150-common" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="vendor/lge/mh2lm" name="Lge-qcom-dev/proprietary_vendor_lge_mh2lm" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="vendor/lge/sm8150-common" name="Lge-qcom-dev/proprietary_vendor_lge_sm8150-common" remote="rem" revision="lineage-22.2" clone-depth="1" />
 
         <!-- Kernel Source -->
-        <project path="kernel/lge/sm8150" name="LineageOS/android_kernel_lge_sm8150" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="kernel/lge/sm8150" name="Lge-qcom-dev/android_kernel_lge_sm8150" remote="rem" revision="lineage-22.2" clone-depth="1" />
 </manifest>
