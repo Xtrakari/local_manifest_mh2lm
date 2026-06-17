@@ -12,7 +12,7 @@
 
         <!-- Vendor Blobs (Using standard LineageOS proprietary mirrors) -->
         <project path="vendor/lge/mh2lm" name="Xtrakari/proprietary_vendor_lge_mh2lm" remote="rem" revision="lineage-22.2" clone-depth="1" />
-        <project path="vendor/lge/sm8150-common" name="Lge-qcon-dev/proprietary_vendor_lge_sm8150-common" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="vendor/lge/sm8150-common" name="Lge-qcom-dev/proprietary_vendor_lge_sm8150-common" remote="rem" revision="lineage-22.2" clone-depth="1" />
 
         <!-- Kernel Source -->
         <project path="kernel/lge/sm8150" name="Xtrakari/android_kernel_lge_sm8150" remote="rem" revision="new-upstream" clone-depth="1" />
