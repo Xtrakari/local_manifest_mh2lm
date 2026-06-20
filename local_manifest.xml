@@ -3,7 +3,7 @@
         <remote name="rem"
                 fetch="https://github.com" />
 
-        <remove-project name="LineageOS/android_vendor_lineage" />
+        <remove-project name="android_vendor_lineage" />
 
         <project path="hardware/lge" name="Lge-qcom-dev/android_hardware_lge" remote="rem" revision="lineage-22.2" clone-depth="1" />
         
